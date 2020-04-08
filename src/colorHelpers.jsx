@@ -31,7 +31,7 @@ function generatePalette(starterPalette) {
 
 function getRange(hexColor) {
 	const end = "#fff";
-	return [chroma(hexColor).darker(12.4).hex(), hexColor, end];
+	return [chroma(hexColor).darker(1.4).hex(), hexColor, end];
 }
 
 function getScale(hexColor, numberOfColors) {
