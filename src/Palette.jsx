@@ -40,11 +40,7 @@ class Palette extends Component {
 					showingAllColors
 				/>
 				<div className={classes.colors}>{colorBoxes}</div>
-				<PaletteFooter
-					className={classes.PaletteFooter}
-					paletteName={paletteName}
-					emoji={emoji}
-				/>
+				<PaletteFooter paletteName={paletteName} emoji={emoji} />
 			</div>
 		);
 	}
